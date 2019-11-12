@@ -6,7 +6,7 @@ from load_data import Y_all_one as Y_all
 from load_data import X, num_classes, X_all, local_all
 import matplotlib.pyplot as plt
 
-log_path = '/home/yangqiao/Documents/research/SAR/code/log/model.ckpt'
+log_path = '/home/jameshennessy/Documents/research/SAR/code/log/model.ckpt'
 
 batch_size = 64
 train_nums = int(X.shape[0] * 0.8) # 9772
